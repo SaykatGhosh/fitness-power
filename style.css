@@ -20,6 +20,7 @@
     list-style: none;
     margin: 5px;
     font-size: 18px;
+    margin-left: 40px;
 }
 
 .menu-items li:hover {
@@ -216,4 +217,51 @@
     background-color: #4B3BC6;
     color: white;
     border: 1px solid white;
+}
+
+.services-card1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    width: 350px;
+    box-shadow: rgb(128, 128, 128) 5px 5px 6px 5px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+.services-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.services-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-description {
+    padding: 10px;
+    line-height: 30px;
+}
+
+.fitness-traning-text {
+    color: red;
+}
+
+.batch img {
+    width: 50px;
+    position: absolute;
+}
+
+.footer-style {
+    text-align: center;
+    font-size: 18px;
+}
+
+span {
+    color: red;
 }
