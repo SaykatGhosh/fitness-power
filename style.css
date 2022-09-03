@@ -188,3 +188,32 @@
     text-decoration: none;
     color: white;
 }
+
+
+.workout-container {
+    width: 700px;
+    height: 200px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.workout-button button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.workout-button button:hover {
+    background-color: #4B3BC6;
+    color: white;
+    border: 1px solid white;
+}
