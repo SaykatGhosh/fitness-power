@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     background-color: black;
-    padding: 5px;
+    padding: 15px;
     color: white;
 }
 
@@ -63,5 +63,128 @@
     background-color: #FF0000;
     margin: 10px;
     font-size: 18px;
+    color: white;
+}
+
+.section-tow {
+    margin-top: 20px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-two-title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 70px;
+
+}
+
+.card1 {
+    width: 270px;
+    height: 200px;
+    padding: 25px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgb(128, 128, 128) 2px 2px 4px 0px;
+    margin-top: 20px;
+    transition: .15ms;
+
+}
+
+.card1:hover {
+    border: 1px solid black;
+    margin-top: -20px;
+    transition: .15ms;
+
+}
+
+.gym-icon {
+    width: 50px;
+
+}
+
+.title2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+}
+
+.section-three {
+    background-color: black;
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    padding: 20px;
+
+    /* justify-content: space-evenly;
+    align-items: center; */
+}
+
+.about-left {
+    width: 700px;
+    border-top: 1px solid red;
+
+
+}
+
+.about-right {
+    width: 700px;
+    border-top: 1px solid gray;
+
+}
+
+.workout-image {
+    display: flex;
+}
+
+.workout-image img {
+    padding: 20px;
+    height: 550px;
+    margin-top: 50px;
+    transform: skewX(-15deg);
+
+}
+
+.about-heading {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 22px;
+    text-align: start;
+    margin: 15px;
+    color: #c4cdcd;
+}
+
+.about-list {
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+    margin: 20px;
+}
+
+.about-btn {
+    padding: 18px 35px;
+    border: none;
+    background-color: #FF0000;
+    margin: 10px;
+    font-size: 18px;
+
+}
+
+.about-btn a {
+    text-decoration: none;
     color: white;
 }
