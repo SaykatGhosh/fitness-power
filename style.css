@@ -2,3 +2,66 @@
     padding: 0px;
     margin: 0px;
 }
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+.menu-items {
+    display: flex;
+
+}
+
+.menu-items li {
+    list-style: none;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.menu-items li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.banner-container {
+    color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.banner-description {
+    margin-left: 50px;
+}
+
+.banner-top-text {
+    color: red;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.title-1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.text {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.banner-btn {
+    padding: 18px 35px;
+    border: none;
+    background-color: #FF0000;
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+}
